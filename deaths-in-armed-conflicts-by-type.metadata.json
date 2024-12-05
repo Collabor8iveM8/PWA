@@ -1,0 +1,99 @@
+{
+  "chart": {
+    "title": "Deaths in armed conflicts",
+    "subtitle": "Included are deaths of combatants and civilians due to fighting in [interstate](#dod:interstate-ucdp), [intrastate](#dod:intrastate-ucdp), [extrasystemic](#dod:extrasystemic-ucdp), [non-state](#dod:nonstate-ucdp) conflicts, and [one-sided violence](#dod:onesided-ucdp) that were ongoing that year.",
+    "citation": "Uppsala Conflict Data Program (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-type?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World"
+    ]
+  },
+  "columns": {
+    "Deaths in ongoing conflicts (best estimate) - Conflict type: one-sided violence": {
+      "titleShort": "One-sided violence",
+      "titleLong": "One-sided violence",
+      "descriptionShort": "The best estimate of the number of deaths of civilians from one-sided violence that was ongoing that year.",
+      "descriptionKey": [
+        "One-sided violence is the use of armed force by a state or non-state armed group against civilians that causes at least 25 civilian deaths during a year."
+      ],
+      "unit": "deaths",
+      "timespan": "1989-2023",
+      "type": "Integer",
+      "owidVariableId": 985493,
+      "shortName": "number_deaths_ongoing_conflicts__conflict_type_one_sided_violence",
+      "lastUpdated": "2024-08-26",
+      "citationShort": "Uppsala Conflict Data Program (2024) – processed by Our World in Data",
+      "citationLong": "Uppsala Conflict Data Program (2024) – processed by Our World in Data. “One-sided violence” [dataset]. Uppsala Conflict Data Program, “Georeferenced Event Dataset v24.1” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/985493.metadata.json"
+    },
+    "Deaths in ongoing conflicts (best estimate) - Conflict type: non-state conflict": {
+      "titleShort": "Non-state",
+      "titleLong": "Non-state",
+      "descriptionShort": "The best estimate of the number of deaths of combatants and civilians due to fighting in non-state conflicts that were ongoing that year.",
+      "descriptionKey": [
+        "A non-state conflict is a conflict between non-state armed groups, such as rebel groups, criminal organizations, or ethnic groups, that causes at least 25 deaths during a year. This includes combatant and civilian deaths due to fighting."
+      ],
+      "unit": "deaths",
+      "timespan": "1989-2023",
+      "type": "Integer",
+      "owidVariableId": 985481,
+      "shortName": "number_deaths_ongoing_conflicts__conflict_type_non_state_conflict",
+      "lastUpdated": "2024-08-26",
+      "citationShort": "Uppsala Conflict Data Program (2024) – processed by Our World in Data",
+      "citationLong": "Uppsala Conflict Data Program (2024) – processed by Our World in Data. “Non-state” [dataset]. Uppsala Conflict Data Program, “Georeferenced Event Dataset v24.1” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/985481.metadata.json"
+    },
+    "Deaths in ongoing conflicts (best estimate) - Conflict type: extrasystemic": {
+      "titleShort": "Extrasystemic",
+      "titleLong": "Extrasystemic",
+      "descriptionShort": "The best estimate of the number of deaths of combatants and civilians due to fighting in extrasystemic conflicts that were ongoing that year.",
+      "descriptionKey": [
+        "An extrasystemic conflict is a conflict between a state and a non-state armed group outside its territory that causes at least 25 deaths during a year. This includes combatant and civilian deaths due to fighting."
+      ],
+      "unit": "deaths",
+      "timespan": "1989-2023",
+      "type": "Integer",
+      "owidVariableId": 985377,
+      "shortName": "number_deaths_ongoing_conflicts__conflict_type_extrasystemic",
+      "lastUpdated": "2024-08-26",
+      "citationShort": "Uppsala Conflict Data Program (2024) – processed by Our World in Data",
+      "citationLong": "Uppsala Conflict Data Program (2024) – processed by Our World in Data. “Extrasystemic” [dataset]. Uppsala Conflict Data Program, “Georeferenced Event Dataset v24.1” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/985377.metadata.json"
+    },
+    "Deaths in ongoing conflicts (best estimate) - Conflict type: intrastate": {
+      "titleShort": "Intrastate",
+      "titleLong": "Intrastate",
+      "descriptionShort": "The best estimate of the number of deaths of combatants and civilians due to fighting in intrastate conflicts that were ongoing that year.",
+      "descriptionKey": [
+        "An intrastate conflict is a conflict between a state and a non-state armed group that causes at least 25 deaths during a year. This includes combatant and civilian deaths due to fighting. If a foreign state is involved, it is called \"internationalized\", and \"non-internationalized\" otherwise."
+      ],
+      "unit": "deaths",
+      "timespan": "1989-2023",
+      "type": "Integer",
+      "owidVariableId": 985425,
+      "shortName": "number_deaths_ongoing_conflicts__conflict_type_intrastate",
+      "lastUpdated": "2024-08-26",
+      "citationShort": "Uppsala Conflict Data Program (2024) – processed by Our World in Data",
+      "citationLong": "Uppsala Conflict Data Program (2024) – processed by Our World in Data. “Intrastate” [dataset]. Uppsala Conflict Data Program, “Georeferenced Event Dataset v24.1” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/985425.metadata.json"
+    },
+    "Deaths in ongoing conflicts (best estimate) - Conflict type: interstate": {
+      "titleShort": "Interstate",
+      "titleLong": "Interstate",
+      "descriptionShort": "The best estimate of the number of deaths of combatants and civilians due to fighting in interstate conflicts that were ongoing that year.",
+      "descriptionKey": [
+        "An interstate conflict is a conflict between states that causes at least 25 deaths during a year. This includes combatant and civilian deaths due to fighting."
+      ],
+      "unit": "deaths",
+      "timespan": "1989-2023",
+      "type": "Integer",
+      "owidVariableId": 985400,
+      "shortName": "number_deaths_ongoing_conflicts__conflict_type_interstate",
+      "lastUpdated": "2024-08-26",
+      "citationShort": "Uppsala Conflict Data Program (2024) – processed by Our World in Data",
+      "citationLong": "Uppsala Conflict Data Program (2024) – processed by Our World in Data. “Interstate” [dataset]. Uppsala Conflict Data Program, “Georeferenced Event Dataset v24.1” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/985400.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-12-04"
+}
